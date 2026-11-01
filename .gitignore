@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 学生管理系统的运行时数据
+stu.txt
+*.bak
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
