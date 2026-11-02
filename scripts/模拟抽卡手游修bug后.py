@@ -182,13 +182,13 @@ if __name__ == "__main__":
         print("=" * 40)
 
         try:
-            i = int(input("请输入需要的操作 (1~5): "))
+            i = int(input("请输入需要的操作 (1~6): "))
         except ValueError:
-            print("❌ 请输入数字 1~5")
+            print("❌ 请输入数字 1~6")
             continue
 
         if i < 1 or i > 6:
-            print("❌ 请输入 1~5")
+            print("❌ 请输入 1~6")
             continue
 
         elif i == 1:
